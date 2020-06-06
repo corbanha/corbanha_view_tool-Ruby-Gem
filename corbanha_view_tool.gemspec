@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q(A little gem for the express purpose of learning how to create a ruby gem)
   spec.description   = %q(This gem will generate a dynamic copyright line that can be placed at the bottom of the page)
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "corbanha.com"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/corbanha/corbanha_view_tool-Ruby-Gem"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", ">= 12.3.3"
 end
